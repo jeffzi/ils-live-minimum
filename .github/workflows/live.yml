@@ -1,0 +1,9 @@
+name: live
+on: pull_request
+permissions: {}
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - run: echo "live marker gejkcay3tl" && exit 1
